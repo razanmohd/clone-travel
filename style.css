@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+    
+    
+nav{
+     background-color: #222222;
+     color: white;
+     display: flex;
+     justify-content: space-around;
+     padding: 5px;
+
+}
+
+nav ul{
+    display: flex;
+    padding-top: 10px;
+    
+}
+
+nav li{
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+#navbar hr{
+
+    height: 3px;
+    background-color: rgb(255, 145, 0);
+    margin: 0;
+    border-color: rgb(255, 145, 0);
+}
+
+.banner{
+    background-image: url(./pexels-tirachard-kumtanom-112571-450062.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.tbox{
+    width: 850px;
+    height: 200px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 2%;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.tbox p{
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(255, 145, 0);
+    border-color: rgb(255, 145, 0);
+    height: 50px;
+    width: 400px;
+    border-radius:2%;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    opacity:1;
+    
+    
+}
+
+button:hover{
+    background-color: #222222;
+    border-color: #222222;
+    
+}
+
+.banner2{
+    background-image: url(./banner-logos-900x64.jpg.webp);
+    height: 64px;
+    width: 58%;
+    
+}
+
+#lblog{
+    font-size:30px;
+    
+}
+
+#lblog a{
+    text-decoration: none;
+    color: rgb(255, 145, 0);
+    font-size: 15px;
+    align-items: center;
+    
+
+}
+
+#lblog h2{
+    text-align: center;
+}
+
+#lblog .row{
+    display: flex;
+    padding-left: 150px;
+    
+}
+
+#lblog .col{
+    height: 400px;
+    width: 350;
+    margin: 20px;
+   
+    
+    
+    /*padding: 30px; */
+}
+
+#lblog p{
+    color: black;
+    font-size: 20px;
+}
+
+#subscribe .roww{
+    display: flex;
+}
+
+#subscribe .col-4{
+    padding-left: 100px;
+}
+#subscribe .col-6{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+#subscribe input{
+    width: 600px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#subscribe button{
+    height: 30px;
+    width: 150px;
+    font-size: smaller;
+    background-color: rgb(0, 157, 157);
+    border-color: black;
+
+}
+
+#inp1{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+#inp1 p{
+    margin-left: -570px;
+    margin-top: 15px;
+}
+
+#subscribe hr{
+    color: rgb(255, 255, 255);
+}
+
+#lblog .row02{
+    display: flex;
+}
+
+.col01{
+    width: 750px;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+#b01{
+    background-color: transparent;
+    color: rgb(255, 145, 0);
+    border-color: rgb(255, 145, 0);
+    border-radius: 3%;
+}
+#b01:hover{
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+    border-color: #222222;
+    
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    height: 450px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#footer  .row{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+#w1{
+    word-spacing: 10px;
+    font-size: 40px;
+
+}
+
+#footer ul li a:hover{
+    color: rgb(255, 145, 0);
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+#footer p{
+    color: gray;
+    font-size: 18px;
+}
+
+#footer p a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#footer p a:hover{
+    color: rgb(255, 145, 0);
+    text-decoration: underline;
+    
+}
